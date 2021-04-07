@@ -12,7 +12,9 @@ public class Task1 {
         n = input.nextInt();
         int[] array = new int[n];
         for (int i = 0; i < n; i++) {
-            array[i] = random.nextInt();
+            array[i] = random.nextInt(10);
+            System.out.print(array[i] + " ");
         }
+
     }
 }
