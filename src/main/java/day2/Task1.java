@@ -11,7 +11,7 @@ public class Task1 {
         stage = input.nextInt();
 
         if (stage >= 1 && stage <= 4) {
-            System.out.println("Среднеэтажный дом");
+            System.out.println("Малоэтажный дом");
         }
         else if (stage >= 5 && stage <= 8) {
             System.out.println("Среднеэтажный дом");
